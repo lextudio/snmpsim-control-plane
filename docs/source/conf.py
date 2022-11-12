@@ -42,12 +42,12 @@ templates_path = ['.templates']
 source_suffix = '.rst'
 
 # The master toctree document.
-master_doc = 'contents'
+master_doc = 'index'
 
 # General information about the project.
 project = 'SNMP Simulator Control Panel'
-copyright = '2019-2020, Ilya Etingof'
-author = 'Ilya Etingof'
+copyright = '2019-2020, Ilya Etingof; 2022, LeXtudio Inc.'
+author = 'Ilya Etingof; LeXtudio Inc.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -92,7 +92,7 @@ html_theme_options = {
     'logo': 'logo.svg',
     'description': '<p align=left><i><b>Brewing free software for the greater good</i></b></p>',
     'show_powered_by': False,
-    'github_user': 'etingof',
+    'github_user': 'lextudio',
     'github_repo': 'snmpsim-control-plane',
     'fixed_sidebar': True,
 }

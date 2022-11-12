@@ -2,7 +2,8 @@
 # This file is part of snmpsim-control-plane software.
 #
 # Copyright (c) 2019-2020, Ilya Etingof <etingof@gmail.com>
-# License: http://snmplabs.com/snmpsim-control-plane/license.html
+# Copyright (c) 2022, LeXtudio Inc. <support@lextudio.com>
+# License: https://www.pysnmp.com/snmpsim-control-plane/license.html
 #
 """SNMP Simulator Control Plane.
 
@@ -57,10 +58,10 @@ PARAMS = {
     'version': version,
     'description': DOCLINES[0],
     'long_description': ' '.join(DOCLINES[1:]),
-    'maintainer': 'Ilya Etingof <etingof@gmail.com>',
-    'author': 'Ilya Etingof',
-    'author_email': 'etingof@gmail.com',
-    'url': 'http://snmplabs.com/snmpsim-control-plane',
+    'maintainer': 'Lex Li <support@lextudio.com>',
+    'author': 'LeXtudio Inc.',
+    'author_email': 'support@lextudio.com',
+    'url': 'https://www.pysnmp.com/snmpsim-control-plane',
     'license': 'BSD',
     'platforms': ['any'],
     'classifiers': [x for x in CLASSIFIERS.split('\n') if x],

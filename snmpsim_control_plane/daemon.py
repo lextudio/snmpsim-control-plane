@@ -2,7 +2,7 @@
 # This file is part of SNMP Simulator Control Plane software.
 #
 # Copyright (c) 2019-2020, Ilya Etingof <etingof@gmail.com>
-# License: http://snmplabs.com/snmpsim/license.html
+# License: https://www.pysnmp.com/snmpsim/license.html
 #
 import sys
 

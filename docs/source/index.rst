@@ -4,7 +4,7 @@ SNMP Simulator Control Plane
 
 SNMP Simulator Control Plane is a set of tools facilitating
 automated, distributed and remotely controlled
-`SNMP Simulator <http://snmplabs.com/snmpsim>`_ deployment.
+`SNMP Simulator <https://www.pysnmp.com/snmpsim>`_ deployment.
 
 Kudos to `inexio <https://github.com/inexio>`_ for inspiring and
 sponsoring this project!
@@ -23,7 +23,7 @@ Download & Changelog
 --------------------
 
 Project source code and released packages can be downloaded from
-`GitHub <https://github.com/etingof/snmpsim-control-plane/releases>`_
+`GitHub <https://github.com/lextudio/snmpsim-control-plane/releases>`_
 or `PyPI <https://pypi.org/project/snmpsim-control-plane/>`_.
 
 We maintain a detailed log of changes:
@@ -49,8 +49,8 @@ Help and support
 
 In case of questions or troubles using SNMP Simulator Control Plane software,
 do not hesitate opening up an
-`issue <https://github.com/etingof/snmpsim-control-plane/issues>`_ at GitHub
+`issue <https://github.com/lextudio/pysnmp/issues>`_ at GitHub
 or ask on
-`Stack Overflow <http://stackoverflow.com/questions/tagged/snmpsim>`_ .
+`Stack Overflow <http://stackoverflow.com/questions/tagged/pysnmp>`_ .
 
 Everyone is welcome to fork the repo and propose a feature or a fix!

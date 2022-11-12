@@ -21,7 +21,7 @@ on your system:
    pip install snmpsim-control-plane
 
    # Better use the latest (unreleased) SNMP Simulator
-   pip install https://github.com/etingof/snmpsim/archive/master.zip
+   pip install https://github.com/lextudio/snmpsim/archive/master.zip
 
 It's better to run all SNMP Simulator tools under a non-privileged user
 and group (e.g. `snmpsim`).
@@ -172,7 +172,7 @@ Then bring up process supervision and metrics importer daemons:
      --logging-method file:/var/log/snmpsim/importer.log
 
 Perhaps it's better to configure all process invocation commands within
-`systemd unit files <https://github.com/etingof/snmpsim-control-plane/tree/master/conf/systemd>`_
+`systemd unit files <https://github.com/lextudio/snmpsim-control-plane/tree/master/conf/systemd>`_
 or alike.
 
 By this point you should be able to run REST API calls against
@@ -190,9 +190,9 @@ To start using Control Plane, try uploading a simulation recording:
     1.3.6.1.2.1.1.1.0|4|Linux zeus 4.8.6.5-smp #2 SMP Sun Nov 13 14:58:11 CDT 2016 i686
     1.3.6.1.2.1.1.2.0|6|1.3.6.1.4.1.8072.3.2.10
     1.3.6.1.2.1.1.3.0|67|123999999
-    1.3.6.1.2.1.1.4.0|4|SNMP Laboratories, info@snmplabs.com
-    1.3.6.1.2.1.1.5.0|4|zeus.snmplabs.com
-    1.3.6.1.2.1.1.6.0|4|San Francisco, California, United States
+    1.3.6.1.2.1.1.4.0|4|LeXtudio Inc., support@lextudio.com
+    1.3.6.1.2.1.1.5.0|4|zeus.pysnmp.com
+    1.3.6.1.2.1.1.6.0|4|Toronto, Ontario, Canada
     1.3.6.1.2.1.1.7.0|2|72
     1.3.6.1.2.1.1.8.0|67|123999999
     EOF
