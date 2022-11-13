@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "snmpsim-control-plane-lextudio"
+version = "0.0.3"
+description = "REST API driven management and monitoring supervisor to remotely operate SNMP simulator."
+authors = ["Lex Li <support@lextudio.com>"]
+license = "BSD-2-Clause"
+repository = "https://github.com/lextudio/snmpsim-control-plane"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Telecommunications Industry",
+    "License :: OSI Approved :: BSD License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Topic :: Communications",
+    "Topic :: System :: Monitoring",
+    "Topic :: System :: Networking :: Monitoring"
+]
+readme = "README.md"
+
+packages = [
+    { include = "snmpsim_control_plane" },
+]
+include = ["docs", "tests", "examples"]
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Flask = "<=1.1.1"
+flask-marshmallow = "<=0.9.0"
+Flask-SQLAlchemy = "<=2.4.1"
+marshmallow = "<=2.20.5"
+marshmallow-sqlalchemy = "<=0.18.0"
+psutil = "*"
+
+[tool.poetry.dev-dependencies]
+Sphinx = "^4.3.0"
+pytest = "^6.2.5"
+codecov = "^2.1.12"
+pytest-codecov = "^0.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+snmpsim-mgmt-restapi = "snmpsim_control_plane.commands.management:main"
+snmpsim-mgmt-supervisor = "snmpsim_control_plane.commands.supervisor:main"
+snmpsim-metrics-importer = "snmpsim_control_plane.commands.importer:main"
+snmpsim-metrics-restapi = "snmpsim_control_plane.commands.metrics:main"
