@@ -54,7 +54,7 @@ with open('requirements.txt') as fl:
 DOCLINES = [x.strip() for x in (__doc__ or '').split('\n') if x]
 
 PARAMS = {
-    'name': 'snmpsim-control-plane',
+    'name': 'snmpsim-control-plane-lextudio',
     'version': version,
     'description': DOCLINES[0],
     'long_description': ' '.join(DOCLINES[1:]),

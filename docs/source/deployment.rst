@@ -18,7 +18,7 @@ on your system:
    # Older setuptools may not work with versioned dependencies
    pip install setuptools -U
 
-   pip install snmpsim-control-plane
+   pip install snmpsim-control-plane-lextudio
 
    # Better use the latest (unreleased) SNMP Simulator
    pip install https://github.com/lextudio/snmpsim/archive/master.zip
