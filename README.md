@@ -1,8 +1,8 @@
 
 SNMP Simulator Control Plane
 ----------------------------
-[![PyPI](https://img.shields.io/pypi/v/snmpsim-control-plane.svg?maxAge=2592000)](https://pypi.org/project/snmpsim-control-plane/)
-[![Python Versions](https://img.shields.io/pypi/pyversions/snmpsim-control-plane.svg)](https://pypi.org/project/snmpsim-control-plane/)
+[![PyPI](https://img.shields.io/pypi/v/snmpsim-control-plane-lextudio.svg?maxAge=2592000)](https://pypi.org/project/snmpsim-control-plane-lextudio/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/snmpsim-control-plane-lextudio.svg)](https://pypi.org/project/snmpsim-control-plane-lextudio/)
 [![GitHub license](https://img.shields.io/badge/license-BSD-blue.svg)](https://raw.githubusercontent.com/lextudio/snmpsim-control-plane/master/LICENSE.txt)
 
 SNMP Simulator Control Plane is a set of tools facilitating
@@ -22,7 +22,7 @@ Docs & Downloads
 ----------------
 
 SNMP Simulator Control Plane tool is freely available for download from
-[PyPI](https://pypi.org/project/snmpsim-control-plane/) or
+[PyPI](https://pypi.org/project/snmpsim-control-plane-lextudio/) or
 [GitHub](https://github.com/lextudio/snmpsim-control-plane/archive/master.zip).
 
 User documentation is maintained at [pysnmp.com](https://www.pysnmp.com/snmpsim-control-plane).
