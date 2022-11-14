@@ -2,6 +2,7 @@
 SNMP Simulator Control Plane
 ----------------------------
 [![PyPI](https://img.shields.io/pypi/v/snmpsim-control-plane-lextudio.svg?maxAge=2592000)](https://pypi.org/project/snmpsim-control-plane-lextudio/)
+[![PyPI Downloads](https://img.shields.io/pypi/dd/snmpsim-control-plane-lextudio)](https://pypi.python.org/pypi/snmpsim-control-plane-lextudio/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/snmpsim-control-plane-lextudio.svg)](https://pypi.org/project/snmpsim-control-plane-lextudio/)
 [![GitHub license](https://img.shields.io/badge/license-BSD-blue.svg)](https://raw.githubusercontent.com/lextudio/snmpsim-control-plane/master/LICENSE.txt)
 
