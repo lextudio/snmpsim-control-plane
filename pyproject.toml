@@ -37,10 +37,19 @@ marshmallow-sqlalchemy = "<=0.18.0"
 psutil = "*"
 
 [tool.poetry.dev-dependencies]
-Sphinx = "^4.3.0"
-pytest = "^6.2.5"
 codecov = "^2.1.12"
+pytest = "^6.2.5"
 pytest-codecov = "^0.4.0"
+Sphinx = "^5.0.0"
+sphinx-copybutton = "^0.5.2"
+sphinx-sitemap = "^2.5.1"
+furo = "^2023.1.1"
+
+[tool.poetry_bumpversion.file."snmpsim_control_plane/__init__.py"]
+
+[tool.poetry_bumpversion.file."docs/source/conf.py"]
+search = "release = '{current_version}'"
+replace = "release = '{new_version}'"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
