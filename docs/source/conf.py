@@ -37,6 +37,7 @@ extensions = ['sphinx.ext.viewcode',
 
 html_baseurl = 'https://docs.lextudio.com/snmpsim-control-plane/'
 sitemap_url_scheme = '{link}'
+sitemap_suffix_included = False
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
