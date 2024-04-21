@@ -44,6 +44,7 @@ Sphinx = "^5.0.0"
 sphinx-copybutton = "^0.5.2"
 sphinx-sitemap-lextudio = "^2.5.2"
 furo = "^2023.1.1"
+sphinx-notfound-page = "^1.0.0"
 
 [tool.poetry_bumpversion.file."snmpsim_control_plane/__init__.py"]
 

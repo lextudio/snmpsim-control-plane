@@ -30,10 +30,14 @@ import os
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.viewcode',
+extensions = [
+    'sphinx.ext.viewcode',
     'sphinx_sitemap',
     'sphinx_copybutton',
+    "notfound.extension",
 ]
+
+notfound_urls_prefix = "/snmpsim-control-plane/"
 
 html_baseurl = 'https://docs.lextudio.com/snmpsim-control-plane/'
 sitemap_url_scheme = '{link}'
