@@ -24,7 +24,7 @@ Download & Changelog
 
 Project source code and released packages can be downloaded from
 `GitHub <https://github.com/lextudio/snmpsim-control-plane/releases>`_
-or `PyPI <https://pypi.org/project/snmpsim-control-plane-lextudio/>`_.
+or `PyPI <https://pypi.org/project/snmpsim-control-plane/>`_.
 
 We maintain a detailed log of changes:
 
