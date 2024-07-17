@@ -1,5 +1,9 @@
+Revision 0.0.4, released 16-07-2022
+-----------------------------------
 
-Revision 0.0.3, released XX-04-2020
+- Removed package postfix.
+
+Revision 0.0.3, released 13-11-2022
 -----------------------------------
 
 - Modified Management REST API not to report tag information (esp.
@@ -13,6 +17,7 @@ Revision 0.0.3, released XX-04-2020
 - Fix SQL/ORM problem in SNMP Simulator invocation script generation that
   manifested itself as extreme slowness with the increasing number of powered
   on labs.
+- Packaged by LeXtudio Inc.
 
 Revision 0.0.2, released 08-02-2020
 -----------------------------------
